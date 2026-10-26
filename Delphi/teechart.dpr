@@ -47,6 +47,7 @@ var
   tmpChart : TChart;
 begin
   SetExceptionMask(exAllArithmeticExceptions);
+  TeeChart_Product:='TeeChart for Rust';
 
   tmpChart:=CreateChart(RealsFrom(nx_ptr,x_ptr),
                         RealsFrom(ny_ptr,y_ptr),
