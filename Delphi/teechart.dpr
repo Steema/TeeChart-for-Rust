@@ -6,7 +6,8 @@
 library teechart;
 
 {$IFDEF LINUX}
-{$LIBPREFIX ''}  // teechart.so Linux
+// Rust names "libteechart.so" in linux
+{.$LIBPREFIX ''}  // teechart.so Linux
 {$ENDIF}
 
 {$IFNDEF MSWINDOWS}
