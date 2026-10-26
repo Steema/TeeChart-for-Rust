@@ -20,7 +20,11 @@ fn main() -> Result<(), teechart::Error> {
 }
 ```
 
-Run the example: `cargo run --example basic`
+Run the example: `cargo run --example simple`
+
+## Output: 
+
+<img width="998" height="467" alt="image" src="https://github.com/user-attachments/assets/7b03705c-9e6a-48b4-a737-cc2d601faf77" />
 
 ## Native library
 
